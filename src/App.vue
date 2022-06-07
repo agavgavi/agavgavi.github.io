@@ -1,14 +1,15 @@
 <template>
-  <HeaderBar></HeaderBar>
+  <header>
+    <HeaderBar />
+    <HeroComponent message="Scroll Down for More Information" />
+  </header>
   <p>Welcome to my website</p>
 </template>
 
 <script>
-
 export default {
   name: "App",
-  components: {
-  },
+  components: {},
 };
 </script>
 

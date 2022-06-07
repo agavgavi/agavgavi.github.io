@@ -1,8 +1,10 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import HeaderBar from "./components/HeaderBar.vue";
-
+import HeroComponent from './components/HeroComponent.vue';
+import 'mdb-vue-ui-kit/css/mdb.min.css';
 import "bootstrap/dist/css/bootstrap.css";
 const app = createApp(App);
 app.component("HeaderBar", HeaderBar);
+app.component("HeroComponent", HeroComponent);
 app.mount("#app");
